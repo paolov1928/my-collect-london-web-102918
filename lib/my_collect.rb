@@ -5,4 +5,5 @@ array2 = Array.new
     array2 << yield array[i]
     i = i + 1
   end
+  array2
 end
